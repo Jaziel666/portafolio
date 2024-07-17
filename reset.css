@@ -46,3 +46,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+button.azul, button.experience__botao--demo {
+	width: 105ppx;
+height: 51px;
+padding: 10px 6px 6px 10px;
+gap: 10px;
+opacity: 0px;
+background: #2A7AE4;
+color: #FFFFFF;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.78px;
+border: transparent;
+text-align: center;
+text-transform: none;
+}
+button.transparente, button.experiencia__botao--repo {
+	width: 105px;
+height: 51px;
+padding: 10px 6px 6px 10px;
+gap: 10px;
+opacity: 0px;
+border: 1px solid #2A7AE4;
+background-color: transparent;
+color: #2A7AE4;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.78px;
+text-align: center;
+text-transform: none;
+}
+input:focus-visible {
+    outline: none
+}
+@media (max-width: 425px) {
+button.experiencia__botao--repo, button.experience__botao--demo {
+	width: 133px;
+	height: 40px;
+	padding: 12px 16px 12px 16px;
+}
+
+}
